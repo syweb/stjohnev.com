@@ -120,45 +120,27 @@ img {
 
 
 
-#nav-lm a{display:none;}
-#nav-rm a{display:none;}
+
 #header-nav a{background: url('nav-sprite.png') no-repeat 0 0;  }
 
-#header-nav #nav-1 a.selected   {background-position:0px -7px; width:80px;}
-#header-nav #nav-2 a.selected {background-position:-86px -7px; width:104px;}
-#header-nav #nav-3 a.selected{background-position:-194px -7px; width:112px;}
-#header-nav #nav-x a.selected{background-position:-310px -7px; width:124px;}
-#header-nav #nav-4 a.selected{background-position:-438px -7px; width:116px;}
-#header-nav #nav-5 a.selected{background-position:-560px -7px; width:122px;}
-#header-nav #nav-6 a.selected{background-position:-684px -7px; width:87px;}
-#header-nav #nav-7 a.selected{background-position:-775px -7px; width:118px;}
+#header-nav #nav-lm a, #header-nav #nav-rm a{background-position:0px -101px; width:56px;}
+#header-nav #nav-1 a {background-position:-67px -101px; width:80px;}
+#header-nav #nav-2 a{background-position:-152px -101px; width:104px;}
+#header-nav #nav-3 a{background-position:-258px -101px; width:115px;}
+#header-nav #nav-4 a{background-position:-375px -101px; width:120px;}
+#header-nav #nav-5 a{background-position:-500px -101px; width:125px;}
+#header-nav #nav-6 a{background-position:-627px -101px; width:82px;}
+#header-nav #nav-7 a{background-position:-711px -101px; width:123px;}
 
-#header-nav #nav-1 a:hover   {background-position:0px -7px; width:80px;}
-#header-nav #nav-2 a:hover {background-position:-86px -7px; width:104px;}
-#header-nav #nav-3 a:hover{background-position:-194px -7px; width:112px;}
-#header-nav #nav-x a:hover{background-position:-310px -7px; width:124px;}
-#header-nav #nav-4 a:hover{background-position:-438px -7px; width:116px;}
-#header-nav #nav-5 a:hover{background-position:-560px -7px; width:122px;}
-#header-nav #nav-6 a:hover{background-position:-684px -7px; width:87px;}
-#header-nav #nav-7 a:hover{background-position:-775px -7px; width:118px;}
+#header-nav #nav-lm a:hover, #header-nav #nav-rm a:hover{cursor:default;}
 
-#header-nav #nav-1 a   {background-position:0px -101px; width:80px;}
-#header-nav #nav-2 a {background-position:-86px -101px; width:104px;}
-#header-nav #nav-3 a{background-position:-194px -101px; width:112px;}
-#header-nav #nav-x a{background-position:-310px -101px; width:124px;}
-#header-nav #nav-4 a{background-position:-438px -101px; width:116px;}
-#header-nav #nav-5 a{background-position:-560px -101px; width:122px;}
-#header-nav #nav-6 a{background-position:-684px -101px; width:87px;}
-#header-nav #nav-7 a{background-position:-775px -101px; width:118px;}
-
-
-
-
-
-
-
-
-
+#header-nav #nav-1 a:hover, #header-nav #nav-1 a.selected  {background-position:-67px -7px; width:80px;}
+#header-nav #nav-2 a:hover, #header-nav #nav-2 a.selected  {background-position:-151px -7px; width:104px;}
+#header-nav #nav-3 a:hover, #header-nav #nav-3 a.selected  {background-position:-258px -7px; width:115px;}
+#header-nav #nav-4 a:hover, #header-nav #nav-4 a.selected  {background-position:-375px -7px; width:120px;}
+#header-nav #nav-5 a:hover, #header-nav #nav-5 a.selected  {background-position:-500px -7px; width:125px;}
+#header-nav #nav-6 a:hover, #header-nav #nav-6 a.selected  {background-position:-627px -7px; width:82px;}
+#header-nav #nav-7 a:hover, #header-nav #nav-7 a.selected  {background-position:-711px -7px; width:123px;}
 
                                                                         
 /* End of menu*/
