@@ -1,0 +1,421 @@
+@charset "UTF-8";
+/* CSS Document 
+Author: Kishore Nagarigari
+Website: http://www.stjohnev.com/
+Date Modified: 12 Dec'08
+
+Edit: Rmax - rahulmax@insightmethods.com
+Mod: 22-Oct-09
+
+*/
+
+body {
+	font: 14px/20px "Lucida Grande","Lucida sans unicode", Lucida, Helvetica, Arial,  sans-serif;
+	background: url(bg.gif) repeat-x 0 0;
+	background-color: #013e5c;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #222;
+}
+.login{}
+div.login a{background:url('sy-login.gif') no-repeat 0 0; display:block; width:156px; height:23px; float:right;text-indent:-9999px; text-align:left; }
+div.login a:active, div.login a:hover{background:url('sy-login.gif') no-repeat 0 0;}
+p {
+	padding: 0;
+	margin: 0;
+	line-height: 16px;
+}
+h1,h2,h3 {
+	color:#466495;
+	padding: 10px 10px 0px 20px;
+	font-family: "Trajan Pro", "OptimusPrinceps", "Papyrus", Georgia,  sans-serif;
+}
+
+
+h3 {
+border-bottom:1px solid #cccccc;
+width:92%;
+padding-left: 0px;
+margin-left: 20px;
+}
+
+
+h4 {
+margin-left:20px;
+}
+.more-link{padding:0 0 0 20px;}
+h4 strong{font-size:20px;}
+
+
+
+
+img {
+	border: 0px;
+}
+#container {
+	width: 892px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+
+#flash_intro {
+	background-image: url(intro_bg.jpg);
+}
+#skipintro {
+	background-image: url(intro_btm.jpg);
+	width: 892px;
+	height: 57px;
+}
+#skipintro p {
+	padding: 20px 40px 0 0 ;
+	text-align:right;
+}
+#skipintro p a {
+	text-decoration: none;
+	color: #FFF;
+}
+#header { 
+/*	height: 107px;*/
+/*	margin-bottom: -4px;*/
+}
+
+/* Menu begin*/
+* html #menu { 
+	margin-top: -4px; 
+}
+#header { 
+	margin-bottom: -4px;
+}
+
+
+#header-nav-container {
+	overflow:hidden;
+/*	width: 910px; */
+/*	border: 1px dashed orange;*/
+}
+
+#header-nav {
+  margin:0;
+  padding:0;
+  height:50px;
+  display:block;
+  list-style:none;
+  position:relative; left:14px;}
+
+#header-nav li {
+  margin:0;
+  padding:0;
+  list-style:none;
+  display:inline;
+}
+
+#header-nav a {
+  float:left;
+  padding:50px 0 0 0;
+  overflow:hidden;
+  height:0px !important; 
+/*  border: 1px dashed orange; */
+}
+
+
+
+#nav-lm a{display:none;}
+#nav-rm a{display:none;}
+#header-nav a{background: url('nav-sprite.png') no-repeat 0 0;  }
+
+#header-nav #nav-1 a.selected   {background-position:0px -7px; width:80px;}
+#header-nav #nav-2 a.selected {background-position:-86px -7px; width:104px;}
+#header-nav #nav-3 a.selected{background-position:-194px -7px; width:112px;}
+#header-nav #nav-x a.selected{background-position:-310px -7px; width:124px;}
+#header-nav #nav-4 a.selected{background-position:-438px -7px; width:116px;}
+#header-nav #nav-5 a.selected{background-position:-560px -7px; width:122px;}
+#header-nav #nav-6 a.selected{background-position:-684px -7px; width:87px;}
+#header-nav #nav-7 a.selected{background-position:-775px -7px; width:118px;}
+
+#header-nav #nav-1 a:hover   {background-position:0px -7px; width:80px;}
+#header-nav #nav-2 a:hover {background-position:-86px -7px; width:104px;}
+#header-nav #nav-3 a:hover{background-position:-194px -7px; width:112px;}
+#header-nav #nav-x a:hover{background-position:-310px -7px; width:124px;}
+#header-nav #nav-4 a:hover{background-position:-438px -7px; width:116px;}
+#header-nav #nav-5 a:hover{background-position:-560px -7px; width:122px;}
+#header-nav #nav-6 a:hover{background-position:-684px -7px; width:87px;}
+#header-nav #nav-7 a:hover{background-position:-775px -7px; width:118px;}
+
+#header-nav #nav-1 a   {background-position:0px -101px; width:80px;}
+#header-nav #nav-2 a {background-position:-86px -101px; width:104px;}
+#header-nav #nav-3 a{background-position:-194px -101px; width:112px;}
+#header-nav #nav-x a{background-position:-310px -101px; width:124px;}
+#header-nav #nav-4 a{background-position:-438px -101px; width:116px;}
+#header-nav #nav-5 a{background-position:-560px -101px; width:122px;}
+#header-nav #nav-6 a{background-position:-684px -101px; width:87px;}
+#header-nav #nav-7 a{background-position:-775px -101px; width:118px;}
+
+
+
+
+
+
+
+
+
+
+                                                                        
+/* End of menu*/
+
+/* Sub menu*/
+#subnav { 
+	width: 236px;
+	padding: 0px;
+	margin: 10px;
+	float: left;
+}
+* html #submenu li { 
+	margin-bottom: -9px;
+}
+
+#submenu {
+   margin: 0;
+   padding: 0px;
+   list-style-type: none;
+}
+#submenu_top{
+	width:236px;
+	height:10px;
+  background:url(sub_nav_top.png) no-repeat;
+}
+#submenu_btm{
+	width:236px;
+  	background:url(sub_nav_btm.png) no-repeat;
+	height:25px;
+}
+#submenu li a {
+	height: 33px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 33px;
+	text-decoration: none;
+	background:url(sub_nav_off.png);
+	}	
+
+	
+#submenu li a:link, #submenu li a:visited {
+	color: #7b2524;
+	display: block;
+	padding: 12px 0 0 20px;
+	}
+	
+#submenu li a:hover, #submenu #current {
+	color: #FFF;
+	background:url(sub_nav_on.png);
+	padding: 12px 0 0 20px;
+	font-weight: bold;
+	}	
+
+* html #submenu li a { 
+	height: 43px;
+}
+
+* html #submenu_top { 
+	margin-bottom: -8px;
+}
+
+/* End of Sub menu*/
+
+#content {
+	margin-left: 260px;
+	margin-right:20px;
+	padding-bottom:30px;
+}
+
+#flashcontent {
+	margin-left: 260px;
+	margin-right:20px;
+	padding-bottom:30px;
+}
+* html #flashcontent {
+	margin-right: -9px;
+}
+
+#content table {
+	margin-left: 20px;
+	padding-left: 0px;
+}
+
+
+#lbox { 
+	background: url(lbox.jpg) no-repeat;
+	width:332px;
+	height:257px;
+	padding: 50px 0px 0px 11px;
+	float:left;
+}
+#rbox { 
+	background: url('rtbox.png') no-repeat -8px 100%;
+	width: 532px;
+	margin-left: 0px;
+	padding: 0px 0px 40px 0px;
+	overflow: hidden; 
+}
+
+#rbox h2{background: url('rt-heading.png') no-repeat -8px 0;
+margin:0; padding:20px;
+}
+#rbox h2{color:#fff}
+
+* html #lbox { 
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+* html #rbox { 
+	margin-bottom: 10px;
+	padding-right: -10px;
+	height: 297px; 
+	width: 542px;
+	overflow: hidden; 
+}
+
+
+#rbox img { 
+	float:left;
+	padding: 15px;
+}
+#rbox p { 
+	padding: 0 15px 15px 15px;
+}
+#rbox a { 
+	size: 1.2em;
+}
+
+
+#mainContentHomePage {
+	padding: 0px;
+}
+
+* html #mainContentHomePage {
+	width: 910px;   
+}
+
+
+#mainContentHomePage p {
+	padding: 10px 20px; 
+	height:100%;
+/*	margin-left: 20px;	/*added for indent in IE */
+}
+
+
+#mainContent {
+	background:#FFF url(body_bg.png);
+	padding: 0px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+}
+#mainContent p {
+	padding: 10px 20px; 
+	height:100%;
+/*	margin-left: 20px;	/*added for indent in IE */
+}
+#mainContent ol {
+	padding-left: 20px;
+	margin-left: 40px;
+}
+
+#body_border {
+	height: 23px;
+}
+
+/*Contact form*/
+#page-wrap {
+	width: 660px;
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+}
+
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 400px;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+}
+/*End of contact form*/
+#footer {
+	background: url(footer.jpg) no-repeat;
+	widows:892px;
+	height:97px;
+	color:#FFF;
+	font-size: small;
+}
+#footer p {
+	margin: -15px 0px 0px 215px;
+}
+
+/*- Footer Nav */
+
+	#footer ul { 
+		padding: 20px 0px 20px 25px; 
+		margin: 10px 10px 0px 190px;
+		}
+	
+	#footer ul li {
+		display: inline;
+		}
+	
+	#footer ul li a {
+		color: #FFF;
+		text-decoration: none;
+		}
+	
+	#footer ul li a:hover {
+		text-decoration: underline;
+		}
+	
+/*- End footer nav */
+.clearfix{ clear:both}.data_def {
+	color: #666666;
+}
+
+
+th {
+	font-weight: bold;
+	background-color: #aeb5aa;
+	text-align: left;
+}
+
+/*#community_service */
+
+.centered_number {
+	text-align: center;  
+}
+
+.login {position:absolute; top:10px;  font-size:80%; width: 862px; text-align:right;}
+.login a{color:#fff; text-decoration:none; padding:5px;}
+.login a:hover{text-decoration:underline;}
+.login a:active{background:#330000;}
