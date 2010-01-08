@@ -6,13 +6,15 @@
 
 var fadeimages = new Array()
 //SET IMAGE PATHS. Extend or contract array as needed
- fadeimages[0] = ["assets/CampusScenes/1.jpg", "", ""]
- fadeimages[1] = ["assets/CampusScenes/2.jpg", "", ""]
- fadeimages[2] = ["assets/CampusScenes/3.jpg", "", ""]
- fadeimages[3] = ["assets/CampusScenes/4.jpg", "", ""]
- fadeimages[4] = ["assets/CampusScenes/5.jpg", "", ""]
- fadeimages[5] = ["assets/CampusScenes/6.jpg", "", ""]
- fadeimages[6] = ["assets/CampusScenes/7.jpg", "", ""]
+ fadeimages[0] = ["assets/CampusScenes/107.jpg", "", ""]
+ fadeimages[1] = ["assets/CampusScenes/BasketBall-09.jpg", "", ""]
+ fadeimages[2] = ["assets/CampusScenes/DSC00730.jpg", "", ""]
+ fadeimages[3] = ["assets/CampusScenes/eating.jpg", "", ""]
+ fadeimages[4] = ["assets/CampusScenes/Kinder.jpg", "", ""]
+ fadeimages[5] = ["assets/CampusScenes/Library-09.jpg", "", ""]
+ fadeimages[6] = ["assets/CampusScenes/saints.jpg", "", ""]
+ fadeimages[7] = ["assets/CampusScenes/Strand-Voge.jpg", "", ""]
+ fadeimages[8] = ["assets/CampusScenes/Watson3.jpg", "", ""]
 
  var fadebgcolor = "white"
 
