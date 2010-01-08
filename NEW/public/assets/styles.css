@@ -401,3 +401,8 @@ th {
 .login a{color:#fff; text-decoration:none; padding:5px;}
 .login a:hover{text-decoration:underline;}
 .login a:active{background:#330000;}
+
+#powered {text-align:center; padding:10px 0 80px 0; color:#fff;}
+#powered a{color:#fff;text-decoration:none; }
+#powered a:hover{color:#FFD101;}
+#powered a:active{color:#fff;}
