@@ -6,17 +6,16 @@
 
 var fadeimages = new Array()
 //SET IMAGE PATHS. Extend or contract array as needed
- fadeimages[0] = ["assets/slideshow/crosspaint.jpg", "", ""]
+ fadeimages[0] = ["assets/slideshow/Louther.jpg", "", ""]
  fadeimages[1] = ["assets/slideshow/Breezeway.jpg", "", ""]
  fadeimages[2] = ["assets/slideshow/Bulletin.jpg", "", ""]
- fadeimages[3] = ["assets/slideshow/CampusTour.jpg", "", ""]
+ fadeimages[3] = ["assets/slideshow/Campus-tour-1.jpg", "", ""]
  fadeimages[4] = ["assets/slideshow/Louther.jpg", "", ""]
- fadeimages[5] = ["assets/slideshow/Picture006.jpg", "", ""]
- fadeimages[6] = ["assets/slideshow/Playground09.jpg", "", ""]
- fadeimages[7] = ["assets/slideshow/ST_JOHN_AERIAL_004-1.jpg", "", ""]
- fadeimages[8] = ["assets/slideshow/ST_JOHN_AERIAL_004.jpg", "", ""]
- fadeimages[9] = ["assets/slideshow/ST_JOHN_AERIAL_007.jpg", "", ""]
- fadeimages[10] = ["assets/slideshow/ST_JOHN_AERIAL_010.jpg", "", ""]
+ fadeimages[5] = ["assets/slideshow/Picture-006.jpg", "", ""]
+ fadeimages[6] = ["assets/slideshow/Playground2-09.jpg", "", ""]
+ fadeimages[7] = ["assets/slideshow/ST_JOHN_AERIAL_020a.jpg", "", ""]
+ fadeimages[8] = ["assets/slideshow/Student-Council-Mass.jpg", "", ""]
+ fadeimages[9] = ["assets/slideshow/TraleeCenter.jpg", "", ""]
 
  var fadebgcolor = "white"
 
