@@ -18,6 +18,7 @@ body {
 	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
 	color: #222;
 }
+dl,dd{padding:0px; margin:0px;}
 .login{}
 div.login a{background:url('sy-login.gif') no-repeat 0 0; display:block; width:156px; height:23px; float:right;text-indent:-9999px; text-align:left; }
 div.login a:active, div.login a:hover{background:url('sy-login.gif') no-repeat 0 0;}
@@ -31,6 +32,8 @@ h1,h2,h3 {
 	padding: 10px 10px 0px 20px;
 	font-family: "Trajan Pro", "OptimusPrinceps", "Papyrus", Georgia,  sans-serif;
 }
+
+h2{font-size:20px;}
 
 
 h3 {
@@ -205,10 +208,19 @@ img {
 /* End of Sub menu*/
 
 #content {
-	margin-left: 260px;
+	margin-left: 250px;
 	margin-right:20px;
 	padding-bottom:30px;
 }
+#content-home {
+	margin-left: 0px;
+	
+	padding-bottom:30px;
+	width:385px;
+	float:left;
+}
+
+#mainContent #content-home p{padding-left:0px; padding-right:0px;}
 
 #flashcontent {
 	margin-left: 260px;
@@ -406,3 +418,11 @@ th {
 #powered a{color:#fff;text-decoration:none; }
 #powered a:hover{color:#FFD101;}
 #powered a:active{color:#fff;}
+.wcea{text-align:center; padding:20px 0;}
+
+.event{float:right; width:235px; }
+.event-inner{padding-right:20px;}
+.event dd{padding-bottom:5px; margin-bottom:5px; border-bottom:1px solid #ccc; font-size:12px;}
+.event dd img{padding:1px; margin:5px 0; border:1px solid #ccc;}
+.event h2{font-size:16px; line-height:22px; padding:12px 0 0px 0 ;}
+
