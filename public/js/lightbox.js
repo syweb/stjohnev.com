@@ -494,4 +494,5 @@ Lightbox.prototype = {
 	}
 }
 
-document.observe('dom:loaded', function () { new Lightbox(); });
+//document.observe('dom:loaded', function () { new Lightbox(); });
+document.observe('dom:loaded', function () { myLightbox = new Lightbox(); });
