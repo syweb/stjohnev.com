@@ -104,7 +104,7 @@ img {
   height:50px;
   display:block;
   list-style:none;
-  position:relative; left:14px;}
+  position:relative; left:16px;}
 
 #header-nav li {
   margin:0;
@@ -127,6 +127,7 @@ img {
 #header-nav a{background: url('nav-sprite.png') no-repeat 0 0;  }
 
 #header-nav #nav-lm a, #header-nav #nav-rm a{background-position:0px -101px; width:56px;}
+#header-nav #nav-rm a{background-position:-842px -101px; }
 #header-nav #nav-1 a {background-position:-67px -101px; width:80px;}
 #header-nav #nav-2 a{background-position:-152px -101px; width:104px;}
 #header-nav #nav-3 a{background-position:-258px -101px; width:115px;}
