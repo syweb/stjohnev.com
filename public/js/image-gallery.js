@@ -3,7 +3,7 @@
 var i = 0;			
 
 // The array of div names which will hold the images.
-var image_slide = new Array('image-1', 'image-2', 'image-3', 'image-4', 'image-5', 'image-6', 'image-7', 'image-8', 'image-9');
+var image_slide = new Array('image-1', 'image-2', 'image-3', 'image-4', 'image-5', 'image-6', 'image-7', 'image-8');
 
 // The number of images in the array.
 var NumOfImages = image_slide.length;
