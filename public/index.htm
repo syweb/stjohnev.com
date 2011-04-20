@@ -57,7 +57,7 @@
               250
           );
       }
-      //Event.observe(window, 'load', autoFireLightbox, false);
+      Event.observe(window, 'load', autoFireLightbox, false);
 
   // ]]>
 </script>
@@ -81,8 +81,7 @@
 </head>
 <body onLoad="StartSlideShow()">
 
-		<a href="assets/flyer-2.jpg" rel="lightbox[flyer]" id="image001" style="display:none;"></a>
-    <a href="assets/flyer-1.jpg" rel="lightbox[flyer]" id="image002" style="display:none;"></a>
+		<a href="assets/flyer-1.jpg" rel="lightbox[flyer]" id="image001" style="display:none;"></a>
 	<div id="container">
 		<!-- Edit: Please replce the header image here -->
 	  <div id="header"> 
@@ -207,7 +206,7 @@
 	    		<dd>We are now accepting applications for the 2011-2012 school year</dd>
 	    		
 	    		<dd>
-	    		<div style="border:2px solid #013E5C; padding:5px; background:#C5D8F3;">
+	    		<div id='special-announce' style="border:2px solid #013E5C; padding:5px; background:#C5D8F3;">
         <strong><em>St. John The Evangelist’s Rendition Of “The Wizard of Oz” Adorable</em></strong><br> 
         By Monica Unhold, <br>
         Carmichael Patch | April 16, 2011<br>
