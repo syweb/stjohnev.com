@@ -79,8 +79,10 @@ img {
 	color: #FFF;
 }
 #header { 
-/*	height: 107px;*/
-/*	margin-bottom: -4px;*/
+height: 132px;
+background: url('header.jpg');
+padding-top:20px;
+
 }
 
 /* Menu begin*/
@@ -209,16 +211,18 @@ img {
 /* End of Sub menu*/
 
 #content {
-	margin-left: 250px;
+
 	margin-right:20px;
 	padding-bottom:30px;
+	min-height:300px;
 }
 #content-home {
-	margin-left: 0px;
+	float: left;
+  margin-left: 20px;
+  padding-bottom: 30px;
+  width: 530px;
 	
-	padding-bottom:30px;
-	width:385px;
-	float:left;
+	
 }
 
 #mainContent #content-home p{padding-left:0px; padding-right:0px;}
@@ -410,7 +414,7 @@ th {
 	text-align: center;  
 }
 
-.login {position:absolute; top:10px;  font-size:80%; width: 862px; text-align:right;}
+.login {position:absolute; top:11px;  font-size:80%; right:5px; text-align:right;}
 .login a{color:#fff; text-decoration:none; padding:5px;}
 .login a:hover{text-decoration:underline;}
 .login a:active{background:#330000;}
@@ -421,9 +425,43 @@ th {
 #powered a:active{color:#fff;}
 .wcea{text-align:center; padding:20px 0;}
 
-.event{float:right; width:235px; }
-.event-inner{padding-right:20px;}
-.event dd{padding-bottom:5px; margin-bottom:5px; border-bottom:1px solid #ccc; font-size:12px;}
+.event{float: right;  width: 320px; }
+.event-inner{padding-right:19px; }
+.event-mid{background:url('../images/event-mid.png')  repeat-y;}
+.event-top{font-size:1px; line-height:1px; height:9px; background:url('../images/event-top.png') top no-repeat; margin-top:28px;}
+.event-btm{font-size:1px; line-height:1px; height:9px; background:url('../images/event-btm.png') top no-repeat;}
+.event dd{ font-size:12px; padding:10px; background:url('../images/event-sptr.png') top repeat-x;}
 .event dd img{padding:1px; margin:5px 0; border:1px solid #ccc;}
-.event h2{font-size:16px; line-height:22px; padding:12px 0 0px 0 ;}
+.event h2{font-size:16px; line-height:22px; padding:8px 0 10px 10px ; margin:0px;}
+
+
+.body_border-top{height:13px; font-size:1px; line-height:1px;}
+
+/*** slider start set the width and height to match your images **/
+
+#slideshow {
+    position:relative;
+    height:320px;
+}
+
+#slideshow DIV {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+    height: 320px;
+    background-color: #FFF;
+}
+
+#slideshow DIV.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow DIV.last-active {
+    z-index:9;
+}
+
+/*-- Slider end --*/
 
