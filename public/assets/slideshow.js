@@ -20,6 +20,12 @@ var fadeimages = new Array()
  fadeimages[11] = ["assets/slideshow/campus-tour2.jpg", "", ""]
  fadeimages[12] = ["assets/slideshow/campus-tour3.jpg", "", ""]
  fadeimages[13] = ["assets/slideshow/campus-tour4.jpg", "", ""]
+ fadeimages[14] = ["assets/slideshow/campus-tour5.jpg", "", ""]
+ fadeimages[15] = ["assets/slideshow/campus-tour6.jpg", "", ""]
+ fadeimages[16] = ["assets/slideshow/campus-tour7.jpg", "", ""]
+ fadeimages[17] = ["assets/slideshow/campus-tour8.jpg", "", ""]
+ fadeimages[18] = ["assets/slideshow/campus-tour9.jpg", "", ""]
+ fadeimages[19] = ["assets/slideshow/campus-tour10.jpg", "", ""]
 
  var fadebgcolor = "white"
 
