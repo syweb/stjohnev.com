@@ -26,6 +26,10 @@ var fadeimages = new Array()
  fadeimages[17] = ["assets/slideshow/campus-tour8.jpg", "", ""]
  fadeimages[18] = ["assets/slideshow/campus-tour9.jpg", "", ""]
  fadeimages[19] = ["assets/slideshow/campus-tour10.jpg", "", ""]
+ fadeimages[20] = ["assets/slideshow/campus-tour11.jpg", "", ""]
+ fadeimages[21] = ["assets/slideshow/campus-tour12.jpg", "", ""]
+ fadeimages[22] = ["assets/slideshow/campus-tour13.jpg", "", ""]
+ fadeimages[23] = ["assets/slideshow/campus-tour14.jpg", "", ""]
 
  var fadebgcolor = "white"
 

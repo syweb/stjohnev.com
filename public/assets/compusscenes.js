@@ -15,6 +15,17 @@ var fadeimages = new Array()
  fadeimages[6] = ["assets/CampusScenes/saints.jpg", "", ""]
  fadeimages[7] = ["assets/CampusScenes/Strand-Voge.jpg", "", ""]
  fadeimages[8] = ["assets/CampusScenes/Watson3.jpg", "", ""]
+ fadeimages[9] = ["assets/CampusScenes/campus-scenes1.jpg", "", ""]
+ fadeimages[10] = ["assets/CampusScenes/campus-scenes2.jpg", "", ""]
+ fadeimages[11] = ["assets/CampusScenes/campus-scenes3.jpg", "", ""]
+ fadeimages[12] = ["assets/CampusScenes/campus-scenes4.jpg", "", ""]
+ fadeimages[13] = ["assets/CampusScenes/campus-scenes5.jpg", "", ""]
+ fadeimages[14] = ["assets/CampusScenes/campus-scenes6.jpg", "", ""]
+ fadeimages[15] = ["assets/CampusScenes/campus-scenes7.jpg", "", ""]
+ fadeimages[16] = ["assets/CampusScenes/campus-scenes8.jpg", "", ""]
+ fadeimages[17] = ["assets/CampusScenes/campus-scenes9.jpg", "", ""]
+ fadeimages[18] = ["assets/CampusScenes/campus-scenes10.jpg", "", ""]
+
 
  var fadebgcolor = "white"
 
