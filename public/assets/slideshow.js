@@ -10,18 +10,17 @@ var fadeimages = new Array()
  fadeimages[1] = ["assets/slideshow/Bulletin.jpg", "", ""]
  fadeimages[2] = ["assets/slideshow/Louther.jpg", "", ""]
  fadeimages[3] = ["assets/slideshow/Picture-006.jpg", "", ""]/*--*/
- fadeimages[4] = ["assets/slideshow/Playground2-09.jpg", "", ""]
- fadeimages[5] = ["assets/slideshow/ST_JOHN_AERIAL_020a.jpg", "", ""]/*-*/
- fadeimages[6] = ["assets/slideshow/Student-Council-Mass.jpg", "", ""]/*--*/
- fadeimages[7] = ["assets/slideshow/TraleeCenter.jpg", "", ""]/*-*/
- fadeimages[8] = ["assets/slideshow/campus-tour1.jpg", "", ""]/*-*/
- fadeimages[9] = ["assets/slideshow/campus-tour2.jpg", "", ""]/*-*/
- fadeimages[10] = ["assets/slideshow/campus-tour3.jpg", "", ""]/*-*/
- fadeimages[11] = ["assets/slideshow/campus-tour11.jpg", "", ""]/*-*/
- fadeimages[12] = ["assets/slideshow/campus-tour12.jpg", "", ""]/*-*/
- fadeimages[13] = ["assets/slideshow/campus-tour13.jpg", "", ""]/*-*/
- fadeimages[14] = ["assets/slideshow/campus-tour14.jpg", "", ""]/*-*/
- fadeimages[15] = ["assets/slideshow/campus-tour4.jpg", "", ""]/*-*/
+ fadeimages[4] = ["assets/slideshow/ST_JOHN_AERIAL_020a.jpg", "", ""]/*-*/
+ fadeimages[5] = ["assets/slideshow/Student-Council-Mass.jpg", "", ""]/*--*/
+ fadeimages[6] = ["assets/slideshow/TraleeCenter.jpg", "", ""]/*-*/
+ fadeimages[7] = ["assets/slideshow/campus-tour1.jpg", "", ""]/*-*/
+ fadeimages[8] = ["assets/slideshow/campus-tour2.jpg", "", ""]/*-*/
+ fadeimages[9] = ["assets/slideshow/campus-tour3.jpg", "", ""]/*-*/
+ fadeimages[10] = ["assets/slideshow/campus-tour11.jpg", "", ""]/*-*/
+ fadeimages[11] = ["assets/slideshow/campus-tour12.jpg", "", ""]/*-*/
+ fadeimages[12] = ["assets/slideshow/campus-tour13.jpg", "", ""]/*-*/
+ fadeimages[13] = ["assets/slideshow/campus-tour14.jpg", "", ""]/*-*/
+ fadeimages[14] = ["assets/slideshow/campus-tour4.jpg", "", ""]/*-*/
 
 
 
