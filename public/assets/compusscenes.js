@@ -6,20 +6,25 @@
 
 var fadeimages = new Array()
 //SET IMAGE PATHS. Extend or contract array as needed
- fadeimages[0] = ["assets/CampusScenes/BasketBall-09.jpg", "", ""]
- fadeimages[1] = ["assets/CampusScenes/DSC00730.jpg", "", ""]/*-*/
- fadeimages[2] = ["assets/CampusScenes/eating.jpg", "", ""]
- fadeimages[3] = ["assets/CampusScenes/saints.jpg", "", ""]
- fadeimages[4] = ["assets/CampusScenes/campus-scenes1.jpg", "", ""]/*-*/
- fadeimages[5] = ["assets/CampusScenes/campus-scenes2.jpg", "", ""]/*-*/
- fadeimages[6] = ["assets/CampusScenes/campus-scenes3.jpg", "", ""]/*-*/
- fadeimages[7] = ["assets/CampusScenes/campus-scenes4.jpg", "", ""]/*-*/
- fadeimages[8] = ["assets/CampusScenes/campus-scenes5.jpg", "", ""]/*-*/
- fadeimages[9] = ["assets/CampusScenes/campus-scenes6.jpg", "", ""]/*-*/
- fadeimages[10] = ["assets/CampusScenes/campus-scenes7.jpg", "", ""]/*-*/
- fadeimages[11] = ["assets/CampusScenes/campus-scenes8.jpg", "", ""]/*-*/
- fadeimages[12] = ["assets/CampusScenes/campus-scenes9.jpg", "", ""]/*-*/
- fadeimages[13] = ["assets/CampusScenes/campus-scenes10.jpg", "", ""]/*-*/
+	fadeimages[0] = ["assets/CampusScenes/BasketBall-09.jpg", "", ""]
+	fadeimages[1] = ["assets/CampusScenes/DSC00730.jpg", "", ""]/*-*/
+	fadeimages[2] = ["assets/CampusScenes/eating.jpg", "", ""]
+	fadeimages[3] = ["assets/CampusScenes/saints.jpg", "", ""]
+	fadeimages[4] = ["assets/CampusScenes/campus-scenes1.jpg", "", ""]/*-*/
+	fadeimages[5] = ["assets/CampusScenes/campus-scenes2.jpg", "", ""]/*-*/
+	fadeimages[6] = ["assets/CampusScenes/campus-scenes3.jpg", "", ""]/*-*/
+	fadeimages[7] = ["assets/CampusScenes/campus-scenes4.jpg", "", ""]/*-*/
+	fadeimages[8] = ["assets/CampusScenes/campus-scenes5.jpg", "", ""]/*-*/
+	fadeimages[9] = ["assets/CampusScenes/campus-scenes6.jpg", "", ""]/*-*/
+	fadeimages[10] = ["assets/CampusScenes/campus-scenes7.jpg", "", ""]/*-*/
+	fadeimages[11] = ["assets/CampusScenes/campus-scenes8.jpg", "", ""]/*-*/
+	fadeimages[12] = ["assets/CampusScenes/campus-scenes9.jpg", "", ""]/*-*/
+	fadeimages[13] = ["assets/CampusScenes/campus-scenes10.jpg", "", ""]/*-*/
+	fadeimages[14] = ["assets/CampusScenes/campus-scenes11.jpg", "", ""]
+	fadeimages[15] = ["assets/CampusScenes/campus-scenes12.jpg", "", ""]
+	fadeimages[16] = ["assets/CampusScenes/campus-scenes13.jpg", "", ""]
+	fadeimages[17] = ["assets/CampusScenes/campus-scenes14.jpg", "", ""]
+	fadeimages[18] = ["assets/CampusScenes/campus-scenes15.jpg", "", ""]
 
 
  var fadebgcolor = "white"
