@@ -6,25 +6,26 @@
 
 var fadeimages = new Array()
 //SET IMAGE PATHS. Extend or contract array as needed
- fadeimages[0] = ["assets/CampusScenes/107.jpg", "", ""]
- fadeimages[1] = ["assets/CampusScenes/BasketBall-09.jpg", "", ""]
- fadeimages[2] = ["assets/CampusScenes/DSC00730.jpg", "", ""]
- fadeimages[3] = ["assets/CampusScenes/eating.jpg", "", ""]
- fadeimages[4] = ["assets/CampusScenes/Kinder.jpg", "", ""]
- fadeimages[5] = ["assets/CampusScenes/Library-09.jpg", "", ""]
- fadeimages[6] = ["assets/CampusScenes/saints.jpg", "", ""]
- fadeimages[7] = ["assets/CampusScenes/Strand-Voge.jpg", "", ""]
- fadeimages[8] = ["assets/CampusScenes/Watson3.jpg", "", ""]
- fadeimages[9] = ["assets/CampusScenes/campus-scenes1.jpg", "", ""]
- fadeimages[10] = ["assets/CampusScenes/campus-scenes2.jpg", "", ""]
- fadeimages[11] = ["assets/CampusScenes/campus-scenes3.jpg", "", ""]
- fadeimages[12] = ["assets/CampusScenes/campus-scenes4.jpg", "", ""]
- fadeimages[13] = ["assets/CampusScenes/campus-scenes5.jpg", "", ""]
- fadeimages[14] = ["assets/CampusScenes/campus-scenes6.jpg", "", ""]
- fadeimages[15] = ["assets/CampusScenes/campus-scenes7.jpg", "", ""]
- fadeimages[16] = ["assets/CampusScenes/campus-scenes8.jpg", "", ""]
- fadeimages[17] = ["assets/CampusScenes/campus-scenes9.jpg", "", ""]
- fadeimages[18] = ["assets/CampusScenes/campus-scenes10.jpg", "", ""]
+	
+	fadeimages[0] = ["assets/CampusScenes/campus-scenes6.jpg", "", ""]
+	fadeimages[18] = ["assets/CampusScenes/DSC00730.jpg", "", ""]
+	fadeimages[2] = ["assets/CampusScenes/campus-scenes11.jpg", "", ""]
+	fadeimages[3] = ["assets/CampusScenes/campus-scenes2.jpg", "", ""]
+	fadeimages[4] = ["assets/CampusScenes/campus-scenes12.jpg", "", ""]
+	fadeimages[5] = ["assets/CampusScenes/campus-scenes5.jpg", "", ""]
+	fadeimages[6] = ["assets/CampusScenes/saints.jpg", "", ""]
+	fadeimages[7] = ["assets/CampusScenes/campus-scenes13.jpg", "", ""]
+	fadeimages[8] = ["assets/CampusScenes/BasketBall-09.jpg", "", ""]
+	fadeimages[1] = ["assets/CampusScenes/campus-scenes4.jpg", "", ""]
+	fadeimages[10] = ["assets/CampusScenes/campus-scenes1.jpg", "", ""]
+	fadeimages[11] = ["assets/CampusScenes/campus-scenes7.jpg", "", ""]
+	fadeimages[12] = ["assets/CampusScenes/campus-scenes3.jpg", "", ""]
+	fadeimages[13] = ["assets/CampusScenes/eating.jpg", "", ""]
+	fadeimages[14] = ["assets/CampusScenes/campus-scenes14.jpg", "", ""]
+	fadeimages[15] = ["assets/CampusScenes/campus-scenes15.jpg", "", ""]
+	fadeimages[16] = ["assets/CampusScenes/campus-scenes9.jpg", "", ""]
+	fadeimages[17] = ["assets/CampusScenes/campus-scenes8.jpg", "", ""]
+	fadeimages[9] = ["assets/CampusScenes/campus-scenes10.jpg", "", ""]
 
 
  var fadebgcolor = "white"
@@ -52,7 +53,7 @@ function fadeshow(theimages, fadewidth, fadeheight, borderwidth, delay, pause, d
     this.curcanvas = this.canvasbase + "_0"
     if (typeof displayorder != "undefined")
     theimages.sort(function() {
-        return 0.5 - Math.random();
+       // Remove comment to make slideshow rendom // return 0.5 - Math.random();
     })
     //thanks to Mike (aka Mwinter) :)
     this.theimages = theimages

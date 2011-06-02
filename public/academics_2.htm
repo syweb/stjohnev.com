@@ -3,30 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>St. John the Evangelist School</title>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
 <link href="assets/styles.css" rel="stylesheet" type="text/css" />
-<!-- drop down menu -->
-<link rel="stylesheet" type="text/css" href="css/pro_dropdown_2.css" />
-<!-- drop down menu -->
-
-<script src="js/jquery-1.4.2.min.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-	$(document).ready(function(){
-		
-		//dropdownmenu
-		$('#nav li').hover(
-    		function () {
-    			//show its submenu
-    			$('ul', this).slideDown(100);
-
-    		}, 
-    		function () {
-    			//hide its submenu
-    			$('ul', this).slideUp(100);			
-    		}
-    	);
-	})
-</script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -43,78 +21,47 @@
 </head>
 <body>
 <div id="container">
-	<!-- start #header -->
+	<!-- Edit: Please replce the header image here -->
   <div id="header"> 
-  
-    <!-- drop down menu -->
-    <div class="drop-down">
-      <div class="drop-down-inner-l">
-        <div class="drop-down-inner">
-          <ul id="nav">
-      	  <li class="top"><a href="index.htm" class="top_link "><span>Home</span></a>
-      	  <ul class="sub">
-      			<li><a href="home_1.htm">Mission/Philosophy</a></li>
-      			<li><a href="home_2.htm">Expected Learning Results</a></li>
-      			<li><a href="home_3.htm">Faculty &amp; Staff</a></li>
-      			<li><a href="home_4.htm">Campus Tour</a></li>
-      			<li><a href="home_5.htm">Craft Fair</a></li>
-      		</ul>
-      	</li>
-      	<li class="top"><a href="faith.htm" id="our_faith" class="top_link"><span class="down">Our Faith</span></a>
-      	  <ul class="sub">
-      			<li><a href="faith_1.htm">Attending Mass</a></li>
-      			<li><a href="faith_2.htm">Sacraments</a></li>
-      			<li><a href="faith_3.htm">Altar Servers</a></li>
-      			<li><a href="faith_5.htm">Community Service</a></li>
-      		</ul>
-      	</li>
-      	<li class="top"><a href="academics.htm" id="Academics" class="top_link active"><span class="down">Academics</span></a>
-      		<ul class="sub">
-      			<li><a href="curriculum.htm">Curriculum</a></li>
-      			<li><a href="academics_2.htm">Kindergarten</a></li>
-      			<li><a href="academics_4.htm">Enrichment</a></li>
-      		</ul>
-      	</li>
-      	<li class="top"><a href="student.htm" id="student_life" class="top_link"><span class="down">Student Life</span></a>
-      		<ul class="sub">
-      			<li><a href="student_1.htm">Extracurricular</a></li>
-      			<li><a href="student_2.htm">Sports</a></li>
-      			<li><a href="student_3.htm">Hot Lunch Program</a></li>
-      			<li><a href="student_4.htm">Extension</a></li>
-      			<li><a href="student_5.htm">Campus Scenes</a></li>
-      		</ul>
-      	</li>
-      	<li class="top"><a href="admissions.htm" id="Admissions" class="top_link"><span class="down">Admissions</span></a>
-      		<ul class="sub">
-      			<li><a href="admissions_1.htm">Admission Guidelines</a></li>
-      			<li><a href="admissions_4.htm">Application Form</a></li>
-      			<li><a href="admissions_5.htm">Visit Us</a></li>
-      		</ul>
-      	</li>
-      	<li class="top"><a href="parents.htm" id="Parents" class="top_link"><span>Parents</span></a>
-      		<ul class="sub">
-      			<li><a href="parents_1.htm">Advisory Commission</a></li>
-      			<li><a href="parents_2.htm">Parent Club</a></li>
-      			<li><a href="parents_3.htm">Volunteer Hours</a></li>
-      			<li><a href="parents_4.htm">SCRIP</a></li>
-      			<li><a href="parents_5.htm">Parent Communications</a></li>
-      		</ul>
-      	</li>
-      	<li class="top"><a href="contact.htm" id="contact_us" class="top_link"><span>Contact Us</span></a></li>
-        </ul>
-        <div class="login"><a href="https://sje.schoolyardapp.com/">family login</a></div>
-        </div>
-      </div>
-    </div>
-    <!-- drop down menu -->
-  
-  </div>
+    <div class="login"><a href="https://sje.schoolyardapp.com/">family login</a></div><a href="home1.htm"><img src="assets/header.jpg" alt="St. John the Evangelist School" width="892" height="107" /></a>
   <!-- end #header -->
+  </div>
+  <div id="menu">
+  	 <div id="header-nav-container" class="clearfix">
+     <!-- Edit: Please switch class:selected to desired main link -->
+      <ul id="header-nav">
+      	<li id="nav-lm"><a href="#"></a></li>
+        <li id="nav-1"><a href="home1.htm"></a></li>
+        <li id="nav-2"><a href="faith.htm" ></a></li>
+        <li id="nav-3"><a href="academics.htm" class="selected"></a></li>
+        <li id="nav-4"><a href="student.htm"></a></li>
+        <li id="nav-5"><a href="admissions.htm"></a></li>
+        <li id="nav-6"><a href="parents.htm"></a></li>
+        <li id="nav-7"><a href="contact.htm"></a></li>
+		<li id="nav-rm"><a href="#"></a></li>
+      </ul>
+    </div>
+  <!-- end #menu -->
+  </div>
   
   <div id="mainContent">
   <div id="banner"> <img src="assets/banner_kinder.jpg" alt="Banner" width="892" height="165" />
   <!-- end #banner -->
   </div>
+	<div id="subnav">
+        <ul id="submenu">
+        <!-- Edit: Please switch id:current to desired sublink, and you can also also change links here -->
+        	<li id="submenu_top"></li>
+              <li> <a href='academics.htm'>Academics</a> </li>
+              <li> <a href='curriculum.htm'>Curriculum</a> </li>
+              <!-- <li> <a href='academics_1.htm'>Preschool</a> </li> -->
+              <li> <a href='academics_2.htm' id="current">Kindergarten</a> </li>
+              <!-- <li> <a href='academics_3.htm'>Grades 1-8</a> </li> -->
+              <li> <a href='academics_4.htm'>Enrichment</a> </li>
+              <li id="submenu_btm"></li>
+        </ul>
+				<div class="wcea"><img src="assets/wcea-wasc.gif" alt="WCEA And WASC"/></div>
+    </div>
     <div id="content">
     	<!-- Edit: Please change title and content below -->
 <h2>Kindergarten</h2>
