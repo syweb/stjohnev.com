@@ -6,30 +6,24 @@
 
 var fadeimages = new Array()
 //SET IMAGE PATHS. Extend or contract array as needed
- fadeimages[0] = ["assets/slideshow/Louther.jpg", "", ""]
- fadeimages[1] = ["assets/slideshow/Breezeway.jpg", "", ""]
- fadeimages[2] = ["assets/slideshow/Bulletin.jpg", "", ""]
- fadeimages[3] = ["assets/slideshow/Campus-tour-1.jpg", "", ""]
- fadeimages[4] = ["assets/slideshow/Louther.jpg", "", ""]
- fadeimages[5] = ["assets/slideshow/Picture-006.jpg", "", ""]
- fadeimages[6] = ["assets/slideshow/Playground2-09.jpg", "", ""]
- fadeimages[7] = ["assets/slideshow/ST_JOHN_AERIAL_020a.jpg", "", ""]
- fadeimages[8] = ["assets/slideshow/Student-Council-Mass.jpg", "", ""]
- fadeimages[9] = ["assets/slideshow/TraleeCenter.jpg", "", ""]
- fadeimages[10] = ["assets/slideshow/campus-tour1.jpg", "", ""]
- fadeimages[11] = ["assets/slideshow/campus-tour2.jpg", "", ""]
- fadeimages[12] = ["assets/slideshow/campus-tour3.jpg", "", ""]
- fadeimages[13] = ["assets/slideshow/campus-tour4.jpg", "", ""]
- fadeimages[14] = ["assets/slideshow/campus-tour5.jpg", "", ""]
- fadeimages[15] = ["assets/slideshow/campus-tour6.jpg", "", ""]
- fadeimages[16] = ["assets/slideshow/campus-tour7.jpg", "", ""]
- fadeimages[17] = ["assets/slideshow/campus-tour8.jpg", "", ""]
- fadeimages[18] = ["assets/slideshow/campus-tour9.jpg", "", ""]
- fadeimages[19] = ["assets/slideshow/campus-tour10.jpg", "", ""]
- fadeimages[20] = ["assets/slideshow/campus-tour11.jpg", "", ""]
- fadeimages[21] = ["assets/slideshow/campus-tour12.jpg", "", ""]
- fadeimages[22] = ["assets/slideshow/campus-tour13.jpg", "", ""]
- fadeimages[23] = ["assets/slideshow/campus-tour14.jpg", "", ""]
+ fadeimages[0] = ["assets/slideshow/Breezeway.jpg", "", ""]/*-*/
+ fadeimages[1] = ["assets/slideshow/Bulletin.jpg", "", ""]
+ fadeimages[2] = ["assets/slideshow/Louther.jpg", "", ""]
+ fadeimages[3] = ["assets/slideshow/Picture-006.jpg", "", ""]/*--*/
+ fadeimages[4] = ["assets/slideshow/ST_JOHN_AERIAL_020a.jpg", "", ""]/*-*/
+ fadeimages[5] = ["assets/slideshow/Student-Council-Mass.jpg", "", ""]/*--*/
+ fadeimages[6] = ["assets/slideshow/TraleeCenter.jpg", "", ""]/*-*/
+ fadeimages[7] = ["assets/slideshow/campus-tour1.jpg", "", ""]/*-*/
+ fadeimages[8] = ["assets/slideshow/campus-tour2.jpg", "", ""]/*-*/
+ fadeimages[9] = ["assets/slideshow/campus-tour3.jpg", "", ""]/*-*/
+ fadeimages[10] = ["assets/slideshow/campus-tour11.jpg", "", ""]/*-*/
+ fadeimages[11] = ["assets/slideshow/campus-tour12.jpg", "", ""]/*-*/
+ fadeimages[12] = ["assets/slideshow/campus-tour13.jpg", "", ""]/*-*/
+ fadeimages[13] = ["assets/slideshow/campus-tour14.jpg", "", ""]/*-*/
+ fadeimages[14] = ["assets/slideshow/campus-tour4.jpg", "", ""]/*-*/
+
+
+
 
  var fadebgcolor = "white"
 
