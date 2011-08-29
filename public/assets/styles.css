@@ -443,6 +443,9 @@ th {
     position:relative;
     height:320px;
 }
+.slideshow-outer{position:relative; height:320px; width:892px;}
+.slideshow-outer .star{position:absolute; top:200px; right:20px; z-index:11;}
+
 
 #slideshow DIV {
     position:absolute;
