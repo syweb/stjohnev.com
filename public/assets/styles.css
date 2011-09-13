@@ -444,7 +444,7 @@ th {
     height:320px;
 }
 .slideshow-outer{position:relative; height:320px; width:892px;}
-.slideshow-outer .star{position:absolute; top:170px; right:20px; z-index:11; height:194px; width:222px;}
+.slideshow-outer .star{position:absolute; top:215px; right:10px; z-index:11; height:136px; width:155px;}
 
 
 #slideshow DIV {
