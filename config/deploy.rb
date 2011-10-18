@@ -1,5 +1,5 @@
 set :application, "stjohnev.com"
-set :repository,  "git@github.com:insightmethods/#{application}.git"
+set :repository,  "git@github.com:syweb/#{application}.git"
 set :user,        "sites"
 set :domain,      "#{user}@insightmethods.com"
 set :deploy_to,   "/home/sites/#{application}"
