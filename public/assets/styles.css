@@ -20,8 +20,8 @@ body {
 }
 dl,dd{padding:0px; margin:0px;}
 .login{}
-div.login a{background:url('sy-login.gif') no-repeat 0 0; display:block; width:156px; height:23px; float:right;text-indent:-9999px; text-align:left; }
-div.login a:active, div.login a:hover{background:url('sy-login.gif') no-repeat 0 0;}
+div.login a{background:url('bee-login.png') no-repeat 0 0; display:block; width:156px; height:23px; float:right;text-indent:-9999px; text-align:left; }
+div.login a:active, div.login a:hover{background:url('bee-login.png') no-repeat 0 0;}
 p {
 	padding: 0;
 	margin: 0;
@@ -444,8 +444,8 @@ th {
     height:320px;
 }
 .slideshow-outer{position:relative; height:320px; width:892px;}
-.slideshow-outer .star{position:absolute; top:215px; right:10px; z-index:11; height:136px; width:155px;}
-
+.slideshow-outer .star{position:absolute; top:182px; right:5px; z-index:11; height:136px; width:155px;}
+.slideshow-outer .star_top{position:absolute; top:132px; left:-20px; z-index:11;}
 
 #slideshow DIV {
     position:absolute;
