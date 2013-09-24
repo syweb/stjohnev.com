@@ -423,7 +423,7 @@ th {
 #powered a{color:#fff;text-decoration:none; }
 #powered a:hover{color:#FFD101;}
 #powered a:active{color:#fff;}
-.wcea{text-align:center; padding:20px 0;}
+.wcea{text-align:center; padding:20px 0; width:300px;}
 
 .event{float: right;  width: 320px; }
 .event-inner{padding-right:19px; }
@@ -468,3 +468,4 @@ th {
 
 /*-- Slider end --*/
 
+.wasc-text{clear:both; display:block; font-size:11px;margin-top:15px; line-height:14px;}
